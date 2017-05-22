@@ -1,0 +1,2 @@
+class TabelaDesafio < ApplicationRecord
+end

@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<%= @message %>
+<br>
+
+<h1>Desafio 1</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Comprador</th>
+      <th>Descrição</th>
+      <th>Preco Unitário</th>
+      <th>Quantidade</th>
+      <th>Endereço</th>
+      <th>Fornecedor</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tabela_desafios.each do |tabela_desafio| %>
+      <tr>
+        <td><%= tabela_desafio.comprador %></td>
+        <td><%= tabela_desafio.descricao %></td>
+        <td><%= tabela_desafio.preco_unit %></td>
+        <td><%= tabela_desafio.quantidade %></td>
+        <td><%= tabela_desafio.endereco %></td>
+        <td><%= tabela_desafio.fornecedor %></td>
+        <td><%= button_to 'Excluir', tabela_desafio, method: :delete, data: { confirm: 'Tem certeza?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+	<p>Valor total dos pedidos: R$ <%= TabelaDesafio.sum(:valor_total) %>
+	</p>
+  <div>
+    <b style="font-size: 15px"><%= link_to "Página Inicial", root_path %></b>
+
+  </div>
+<br>

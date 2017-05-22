@@ -1,0 +1,15 @@
+<h1>Desafio 1</h1>
+ 
+ <p> Escolha o arquivo:
+<%= form_tag 'tabela_desafios', :multipart => true do %>
+   <label for="file"></label> <%= file_field_tag "file" %>
+   <br>
+   <br>
+   <%= submit_tag "Upload "%>
+<% end %>
+	<br>
+	<br>
+	 <b style="font-size: 15px"><%= link_to "Ir para Tabela", tabela_desafios_path %>
+	 	
+	</b>
+</p>
