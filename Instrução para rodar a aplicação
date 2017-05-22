@@ -10,7 +10,7 @@ Como rodar a aplicação.
     
     -Digitar, dentro da pasta da aplicação 'rails server', sem os '.
     
-    -Entrar na página onde o servidor do rails está configurado.
+    -Entrar na página onde o servidor do Ruby está configurado.
     
     -Clicar no botão "Browse...." e procurar o arquivo "dados.txt" no seu computador.
     
