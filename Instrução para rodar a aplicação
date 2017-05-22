@@ -1,0 +1,15 @@
+
+
+Desafio feito em Ruby on Rails, rodando em todos os navegadores
+
+Como rodar a aplicação.
+
+    Deve ter o Ruby on Rails e o Sqlite3 instalado na máquina
+    Ir no console do sistema operacional e entrar na pasta da aplicação.
+    Digitar, dentro da pasta da aplicação 'rails server', sem os '.
+    entrar na página http://0.0.0.0:3000/
+    Clicar no botão "Browse...." e procurar o arquivo "dados.txt" no seu computador.
+    Aṕos encontrar, clicar no botão "abrir" ou "open", se caso a linguagem do sistema operacional estiver em inglês.
+    Selecionado o arquivo, acionar o botão "Upload"
+    O sistema encaminhará para a página da tabela, já com a informação do valor total bruto do pedido.
+    Alguns tratamentos de erro feitos, porêm bem básicos.
